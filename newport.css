@@ -443,7 +443,7 @@ a:hover{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url();
+        background-image: url(./assets/Profile_picture/picture.jpg);
     }
 
     .hero-content{
