@@ -367,7 +367,7 @@ a:hover{
 #hero {
     position: relative;
     padding: 160px 0px 50px 0px;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 #hero .name {
@@ -376,25 +376,8 @@ a:hover{
     background-clip: text;
     -webkit-background-clip: text;
 }
-
-#hero .btn-showcase {
-    border-radius: 32px;
-    border-color: #7042f88b;
-    border-width: 1px;
-    backdrop-filter: blur(6px); 
-    -webkit-backdrop-filter: blur(6px); 
-    box-shadow: inset 0 -7px 11px rgba(141, 53, 229, .136);
-    -webkit-box-shadow: inset 0 -7px 11px rgba(141, 53, 229, .136);
-    transition: box-shadow .45s cubic-bezier(.6,.6,0,1);
-    -webkit-transition: box-shadow .45s cubic-bezier(.6,.6,0,1);
-}
-
-#hero .btn-showcase i {
-    font-size: 13px;
-}
-
-#hero .btn-showcase:hover {
-    box-shadow: inset 0 -7px 11px rgba(141, 53, 229, .536);
+.auto-type{
+    color: var(--tertiary-color);
 }
 
 #hero .badge-button {
