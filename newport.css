@@ -479,7 +479,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 11px;
+    padding: 10px;
 }
 
 #things-i-love .circle {
@@ -504,6 +504,7 @@ a:hover{
 
 #things-i-love .card-text{
     text-align: center;
+    /* text-align: justify; */
     font-size: 14px;
     color: var(--muted-text);
 }
